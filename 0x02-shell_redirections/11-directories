@@ -1,2 +1,2 @@
-#↨!/bib/bash
+#!/bib/bash
 find -mindepth 1 -type d | wc -l
