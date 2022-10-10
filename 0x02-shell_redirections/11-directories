@@ -1,0 +1,2 @@
+#↨!/bib/bash
+find -mindepath 1 -type d | wc -l
