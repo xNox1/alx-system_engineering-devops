@@ -1,2 +1,2 @@
 #!/bin/bash
-cat -n | cut -b 6- | grep ^[13579] | cut -f
+perl -lne 'print if $. %2 == 1'
